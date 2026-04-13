@@ -1,0 +1,58 @@
+# Personal notes & credentials
+text.text
+*.text
+*.txt
+
+# Shell & system dotfiles
+.bash_history
+.bashrc
+.bash_profile
+.profile
+.bash_logout
+.zshrc
+.zsh_history
+
+# SSH & personal directories
+.ssh/
+.local/
+.jupyter/
+.gnupg/
+
+# Cache directories
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Runtime / system state
+hasbooted
+ports.log
+*.log
+
+# Python / ML artifacts
+*.egg-info/
+dist/
+build/
+.eggs/
+*.ckpt
+*.pt
+*.pth
+wandb/
+runs/
+outputs/
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment files & API keys (secrets)
+.env
+.env.*
+secrets.*
+credentials.*
+.vast_api_key
+.vast_containerlabel
+*_api_key
+*_token
